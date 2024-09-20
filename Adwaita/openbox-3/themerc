@@ -4,7 +4,7 @@ padding.height: 5
 titlebar.height: 36
 window.button.width: 40
 
-menu.items.padding.y:8
+menu.items.padding.y:12
 menu.items.padding.x: 12
 menu.width.min: 140
 menu.width.max: 900
@@ -20,10 +20,9 @@ window.active.indicator.toggled-keybind.color: #ff0000
 
 window.active.button.unpressed.image.color: #333333
 
-window.active.shadow.size: 60
-window.inactive.shadow.size: 40
-window.active.shadow.color: #00000033
-window.inactive.shadow.color: #00000023
+# window.active.button.menu.unpressed.image.color: #333333
+# window.active.button.max.unpressed.image.color: #333333
+# window.active.button.iconify.unpressed.image.color: #333333
 
 # Inactive Windows
 window.inactive.title.bg.color: #ffffff
@@ -43,6 +42,11 @@ menu.separator.width: 1
 menu.separator.padding.width: 6
 menu.separator.padding.height: 3
 menu.separator.color: #dddddd
+
+menu.title.bg.color:#E6E6E6
+menu.title.text.color: #222222
+menu.title.text.justify: left
+
 
 # on screen display (window-cycle dialog)
 osd.bg.color: #303030
