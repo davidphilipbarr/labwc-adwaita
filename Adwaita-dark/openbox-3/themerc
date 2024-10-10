@@ -1,16 +1,19 @@
 !# General
 
+# general
 border.width: 1
-padding.height: 5
-titlebar.height: 36
-window.button.width: 40
-window.label.text.justify: center
+osd.border.width: 1
 
+window.button.width: 26
+window.titlebar.padding.width: 6
+window.titlebar.padding.height: 5
+window.label.text.justify: center
+window.button.spacing: 12
 
 # Active Windows
 window.active.title.bg.color: #303030
 window.active.border.color: #3e3e3e
-window.active.label.text.color: #ffffff
+window.active.label.text.color: #F2F2F2
 window.active.indicator.toggled-keybind.color: #ff0000
 
 window.active.button.unpressed.image.color: #f2f2f2
@@ -24,7 +27,7 @@ window.inactive.button.unpressed.image.color: #919191
 
 
 # menu
-menu.items.padding.y:9
+menu.items.padding.y:12
 menu.items.padding.x: 12
 menu.width.min: 140
 menu.width.max: 800
@@ -40,14 +43,13 @@ menu.items.active.bg.color: #434343
 menu.items.active.text.color: #f2f2f2
 
 menu.title.bg.color:#3A3A3A
-menu.title.text.color: #ffffff
+menu.title.text.color: #F2F2F2
 menu.title.text.justify: left
 menu.separator.color: #4d4d4d
 
 # on screen display (window-cycle dialog)
 osd.bg.color: #303030
 osd.border.color: #353535
-osd.border.width: 1
 osd.label.text.color: #f2f2f2
 
 osd.window-switcher.width: 600
