@@ -2,11 +2,17 @@ So what's this all about?
 
 Here we have a (lib)Adwaita theme for labwc. 
 
+Adwaita-Labwc - xbm buttons
+Adwaita-Labwc-Dark - xbm buttons
+
+Adwaita - svg buttons
+Adwaita-Dark - svg buttons
+
 The purpose of these themes is to *copy* as best we can - the goal is consistency. 
 
 If you want out of the box consistency you will need to remove the maximise and minimise buttons in rc.xml
 
-    <titleLayout>WLC</titleLayout>
+    <titleLayout>menu:close</titleLayout>
     
   
 Issues...
