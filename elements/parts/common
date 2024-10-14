@@ -1,0 +1,39 @@
+# general
+window.button.width: 26
+window.button.height: 26
+window.titlebar.padding.width: 6
+window.titlebar.padding.height: 5
+window.label.text.justify: center
+window.button.spacing: 12
+
+menu.title.text.justify: left
+menu.items.padding.y:12
+menu.items.padding.x: 12
+menu.width.min: 140
+menu.width.max: 900
+menu.overlap.x: 0
+menu.overlap.y: 0
+
+menu.separator.width: 1
+menu.separator.padding.width: 6
+menu.separator.padding.height: 3
+menu.title.text.justify: left
+
+osd.window-switcher.width: 600
+osd.window-switcher.padding: 4
+osd.window-switcher.item.active.border.width: 2
+osd.workspace-switcher.boxes.width: 68
+osd.workspace-switcher.boxes.height: 28
+
+osd.window-switcher.item.padding.x: 12
+osd.window-switcher.item.padding.y: 12
+osd.window-switcher.preview.border.color: #1c71d8,#1c71d8,#1c71d8
+
+snapping.preview.region.fill:yes
+snapping.preview.edge.fill: yes
+snapping.preview.region.bg.color: #78aeed80
+snapping.preview.edge.bg.color: #78aeed80
+snapping.preview.region.border.width: 1
+snapping.preview.edge.border.width: 1
+snapping.preview.region.border.color: #1c71d8,#ffffff,#1c71d8
+snapping.preview.edge.border.color: #1c71d8,#ffffff,#1c71d8
