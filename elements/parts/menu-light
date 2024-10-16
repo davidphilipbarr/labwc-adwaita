@@ -1,5 +1,5 @@
 # menu
-menu.items.bg.color: #fafafa
+menu.items.bg.color: #ffffff
 menu.items.text.color: #222222
 menu.items.active.bg.color: #f1f1f1
 menu.items.active.text.color: #222222
@@ -9,4 +9,5 @@ menu.separator.color: #dddddd
 menu.title.bg.color:#E6E6E6
 menu.title.text.color: #222222
 
+menu.border.color: #dbdbdb
 
