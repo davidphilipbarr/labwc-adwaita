@@ -17,7 +17,7 @@ If you want out of the box consistency you will need to remove the maximise and 
 Issues...
 -The light (normal) variant has menus that can blend into other decorations - it probably needs a border or a dropshadow.
 
-./Elements
+./elements
 
 In this directory is a rudimentary modular theme builder, spliting bits basically into light, dark and common as well as holding the image assets. 
 
