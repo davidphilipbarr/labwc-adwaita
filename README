@@ -13,9 +13,13 @@ The purpose of these themes is to *copy* as best we can - the goal is consistenc
 If you want out of the box consistency you will need to remove the maximise and minimise buttons in rc.xml
 
     <titleLayout>menu:close</titleLayout>
-    
   
 Issues...
-
 -The light (normal) variant has menus that can blend into other decorations - it probably needs a border or a dropshadow.
--The padding and title bar high will probably need adjusting depending on your resolution. 
+
+./Elements
+
+In this directory is a rudimentary modular theme builder, spliting bits basically into light, dark and common as well as holding the image assets. 
+
+Its very basic. At the moment is produces a theme suffixed with -gen - it's mostly to just help me maintain the light and dark themes and keep the padding consistant. 
+It works but it's a bit rough. 
