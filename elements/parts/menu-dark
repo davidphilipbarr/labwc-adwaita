@@ -10,3 +10,9 @@ menu.title.bg.color:#3A3A3A
 menu.title.text.color: #F2F2F2
 
 menu.border.color: #424242
+menu.items.border.color: #434343
+
+menu.bg.color:#303030 
+menu.items.text.color: #ffffff
+menu.items.border.color:#303030 
+menu.items.active.border.color:#434343

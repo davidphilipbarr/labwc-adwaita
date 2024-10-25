@@ -1,13 +1,12 @@
 # general
-window.button.width: 26
-window.button.height: 26
-window.titlebar.padding.width: 6
-window.titlebar.padding.height: 5
+window.button.width: 18
+window.button.height: 18
+window.titlebar.padding.width:6
+window.titlebar.padding.height: 6
 window.label.text.justify: center
 
 # buttons
 window.button.spacing: 12
-window.button.hover.bg.corner-radius: 12
 
 # menu
 menu.title.text.justify: left
@@ -39,7 +38,7 @@ osd.window-switcher.item.padding.x: 12
 osd.window-switcher.item.padding.y: 12
 osd.window-switcher.preview.border.color: #1c71d8,#1c71d8,#1c71d8
 
-# snapping
+# this
 snapping.preview.region.fill:yes
 snapping.preview.edge.fill: yes
 snapping.preview.region.bg.color: #78aeed80

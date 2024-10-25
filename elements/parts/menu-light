@@ -11,3 +11,8 @@ menu.title.text.color: #222222
 
 menu.border.color: #dbdbdb
 
+#menu.items.border.color:  #dbdbdb
+#menu.bg.color:#ffffff
+#menu.items.text.color: #222222
+#menu.items.border.color:#f1f1f1
+#menu.items.active.border.color:#f1f1f1
