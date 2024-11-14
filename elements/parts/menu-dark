@@ -12,7 +12,11 @@ menu.title.text.color: #F2F2F2
 menu.border.color: #424242
 menu.items.border.color: #434343
 
-menu.bg.color:#303030 
-menu.items.text.color: #ffffff
-menu.items.border.color:#303030 
-menu.items.active.border.color:#434343
+menu.bg.color: #303030 
+menu.items.active.border.color: #a8a5a2
+
+menu.items.bg.color: #303030 
+menu.items.text.color: #f2f2f2
+menu.items.active.bg.color: #434343
+menu.items.active.text.color: #f2f2f2
+
