@@ -1,6 +1,11 @@
+# some adwaita numbers do no translate well... 
+#$menu_radius: 9px;
+#$menu_margin: 6px; //margin around menuitems & sidebar items
+#$menu_padding: 12px; //inner menuitem padding
+#$popover_radius: $menu_radius + 6;
+
+
 # general
-window.button.width: 26
-window.button.height: 26
 window.titlebar.padding.width: 6
 window.titlebar.padding.height: 5
 window.label.text.justify: center
@@ -8,38 +13,40 @@ window.label.text.justify: center
 # buttons
 window.button.spacing: 12
 window.button.hover.bg.corner-radius: 12
+window.button.width: 26
+window.button.height: 26
 
 # menu
 menu.title.text.justify: left
-menu.items.padding.y: 10
-menu.items.padding.x: 12
+
 menu.width.min: 180
 menu.width.max: 900
-menu.overlap.x: -1
+menu.overlap.x: -3
 menu.overlap.y: 0
 
+# shell menu.corner-radius: 20 -> gnome shell menus are much rounder
+menu.corner-radius: 13
 menu.padding.width: 6
 menu.padding.height: 6
 
-menu.corner-radius: 12
-# shell menu.corner-radius: 20
-menu.items.corner-radius: 6
-# shell menu.items.corner-radius: 8
-menu.items.border.width: 0
+# menu items 
 
+menu.items.corner-radius: 6
+# shell menu.items.corner-radius: 9 -> gnome shell menus are much rounder
+menu.items.border.width: 0
+menu.items.padding.y: 9
+menu.items.padding.x: 12
+
+# menu separator
 menu.separator.width: 1
 menu.separator.padding.width: 6
 menu.separator.padding.height: 6
 menu.title.text.justify: left
 
-#menu.corner.radius:12
-#menu.padding.x:6
-#menu.padding.y:6
-#menu.item.corner.radius: 6
 
 # osd
 osd.window-switcher.width: 600
-osd.window-switcher.padding: 4
+osd.window-switcher.padding: 6
 osd.window-switcher.item.active.border.width: 2
 osd.workspace-switcher.boxes.width: 68
 osd.workspace-switcher.boxes.height: 28
