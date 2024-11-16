@@ -22,7 +22,7 @@ menu.title.text.justify: left
 menu.width.min: 180
 menu.width.max: 900
 menu.overlap.x: 1
-menu.overlap.y: 0
+menu.overlap.y: 7
 
 # shell menu.corner-radius: 20 -> gnome shell menus are much rounder
 menu.corner-radius: 13
