@@ -12,8 +12,8 @@ window.button.spacing: 12
 menu.title.text.justify: left
 menu.items.padding.y:12
 menu.items.padding.x: 12
-menu.width.min: 140
-menu.width.max: 900
+menu.width.min: 180
+menu.width.max: 500
 menu.overlap.x: 0
 menu.overlap.y: 0
 
@@ -22,10 +22,18 @@ menu.separator.padding.width: 3
 menu.separator.padding.height: 6
 menu.title.text.justify: left
 
-#menu.corner.radius:12
-#menu.padding.x:6
-#menu.padding.y:6
-#menu.item.corner.radius: 6
+# shell menu.corner-radius: 20 -> gnome shell menus are much rounder
+menu.corner-radius: 0
+menu.padding.width: 6
+menu.padding.height: 6
+
+# menu items 
+
+menu.items.corner-radius: 0
+# shell menu.items.corner-radius: 9 -> gnome shell menus are much rounder
+menu.items.border.width: 0
+menu.items.padding.y: 8
+menu.items.padding.x: 12
 
 # osd
 osd.window-switcher.width: 600

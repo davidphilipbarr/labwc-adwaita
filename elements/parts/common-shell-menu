@@ -19,8 +19,8 @@ window.button.height: 26
 # menu
 menu.title.text.justify: left
 
-menu.width.min: 180
-menu.width.max: 900
+menu.width.min: 190
+menu.width.max: 500
 menu.overlap.x: 1
 menu.overlap.y: 7
 
@@ -64,3 +64,10 @@ snapping.preview.region.border.width: 1
 snapping.preview.edge.border.width: 1
 snapping.preview.region.border.color: #1c71d8,#ffffff,#1c71d8
 snapping.preview.edge.border.color: #1c71d8,#ffffff,#1c71d8
+
+# osd shadows
+
+window.active.shadow.size: 60
+window.inactive.shadow.size: 40
+window.active.shadow.color: #00000033
+window.inactive.shadow.color: #00000023
