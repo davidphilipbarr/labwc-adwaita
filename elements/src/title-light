@@ -1,0 +1,12 @@
+# Active Windows
+window.active.title.bg.color: #ffffff
+window.active.border.color: #ffffff
+window.active.label.text.color: #222222
+window.active.indicator.toggled-keybind.color: #ff0000
+window.active.button.unpressed.image.color: #333333
+
+# Inactive Windows
+window.inactive.title.bg.color: #ffffff
+window.inactive.border.color: #ffffff
+window.inactive.label.text.color: #a7a7a7
+window.inactive.button.unpressed.image.color: #a7a7a7

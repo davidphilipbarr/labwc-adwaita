@@ -1,0 +1,73 @@
+# some adwaita numbers do no translate well... 
+#$menu_radius: 9px;
+#$menu_margin: 6px; //margin around menuitems & sidebar items
+#$menu_padding: 12px; //inner menuitem padding
+#$popover_radius: $menu_radius + 6;
+
+# general
+window.titlebar.padding.width: 6
+window.titlebar.padding.height: 5
+window.label.text.justify: center
+
+# buttons
+window.button.spacing: 12
+window.button.hover.bg.corner-radius: 12
+window.button.width: 26
+window.button.height: 26
+
+# menu
+menu.title.text.justify: left
+
+menu.width.min: 190
+menu.width.max: 400
+menu.overlap.x: 1
+menu.overlap.y: 7
+
+# shell menu.corner-radius: 20 -> gnome shell menus are much rounder
+menu.corner-radius: 13
+menu.padding.width: 6
+menu.padding.height: 6
+
+# menu items 
+
+menu.items.corner-radius: 6
+# shell menu.items.corner-radius: 11 -> gnome shell menus are much rounder
+menu.items.border.width: 0
+menu.items.padding.y: 9
+menu.items.padding.x: 12
+
+# menu separator
+menu.separator.width: 1
+menu.separator.padding.width: 6
+menu.separator.padding.height: 6
+menu.title.text.justify:  center
+
+
+# osd
+osd.window-switcher.width: 600
+osd.window-switcher.padding: 6
+osd.window-switcher.item.active.border.width: 2
+osd.workspace-switcher.boxes.width: 68
+osd.workspace-switcher.boxes.height: 28
+
+osd.window-switcher.item.padding.x: 12
+osd.window-switcher.item.padding.y: 12
+osd.window-switcher.preview.border.color: #1c71d8,#1c71d8,#1c71d8
+
+# snapping
+snapping.preview.region.fill:yes
+snapping.preview.edge.fill: yes
+snapping.preview.region.bg.color: #78aeed80
+snapping.preview.edge.bg.color: #78aeed80
+snapping.preview.region.border.width: 1
+snapping.preview.edge.border.width: 1
+snapping.preview.region.border.color: #1c71d8,#ffffff,#1c71d8
+snapping.preview.edge.border.color: #1c71d8,#ffffff,#1c71d8
+
+
+# osd shadows
+
+window.active.shadow.size: 60
+window.inactive.shadow.size: 40
+window.active.shadow.color: #00000033
+window.inactive.shadow.color: #00000023
