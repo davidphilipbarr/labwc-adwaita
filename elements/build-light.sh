@@ -1,13 +1,13 @@
-themename="Adwaita-light"
-mkdir -p ../_build/$themename/openbox-3
+themename="Adwaita"
+mkdir -p ../themes/$themename/openbox-3
 
-rm ../_build/$themename/openbox-3/themerc 
-echo "$(cat ./parts/borders-light)" >> ../_build/$themename/openbox-3/themerc
-echo "$(cat ./parts/common)" >> ../_build/$themename/openbox-3/themerc
-echo "$(cat ./parts/title-light)" >> ../_build/$themename/openbox-3/themerc
-echo "$(cat ./parts/menu-light)" >> ../_build/$themename/openbox-3/themerc
-echo "$(cat ./parts/osd-light)" >> ../_build/$themename/openbox-3/themerc
+rm ../themes/$themename/openbox-3/themerc 
+echo "$(cat ./src/borders-light)" >> ../$themename/openbox-3/themerc
+echo "$(cat ./src/common)" >> ../themes/$themename/openbox-3/themerc
+echo "$(cat ./src/title-light)" >> ../themes/$themename/openbox-3/themerc
+echo "$(cat ./src/menu-light)" >> ../themes/$themename/openbox-3/themerc
+echo "$(cat ./src/osd-light)" >> ../themes/$themename/openbox-3/themerc
 
-cp ./buttons-light/*.svg ../_build/$themename/openbox-3/
+cp ./buttons-light/*.svg ../themes/$themename/openbox-3/
 
-cp -r ../_build/$themename/ ~/.local/share/themes/
+cp -r ../themes/$themename/ ~/.local/share/themes/
