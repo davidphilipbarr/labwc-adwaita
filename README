@@ -1,15 +1,17 @@
 So what's this all about?
 
 Here we have a (lib)Adwaita theme for labwc. 
-Coomplete themes are in the _build folder
+Complete themes are in the themes folder
 
-Adwaita-light  - svg buttons
+Adwaita - svg buttons
 Adwaita-dark - svg buttons
 
-Labwaita-light - xbm buttons
+Labwaita - xbm buttons
 Labwaita-dark - xbm buttons
 
 The purpose of these themes is to *copy* as best we can - the goal is consistency. 
+
+Gnome-shell menus differ slightly from libadwaita menus - they are more round, more padded and have a stonger active hilight - we use the libadwaita styles.  
 
 If you want out of the box consistency you will need to remove the maximise and minimise buttons in rc.xml
 
