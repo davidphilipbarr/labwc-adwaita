@@ -1,3 +1,6 @@
+# border
+border.width: 0
+menu.border.width: 1
 # some adwaita numbers do no translate well... 
 #$menu_radius: 9px;
 #$menu_margin: 6px; //margin around menuitems & sidebar items
