@@ -1,0 +1,22 @@
+# for no reason make it backwards compatible with openbox, mostly.
+
+*title.bg: solid flat
+*.label.bg: Parentrelative
+menu.*.bg: solid flat
+padding.width: 6
+padding.height: 3
+window.handle.width: 0
+window.client.padding.width: 0
+
+window.inactive.*.button.*.bg:parentrelative
+window.active.button.unpressed.bg: parentrelative
+window.active.button.hover.bg: Flat Solid
+window.active.button.hover.bg.color: #ebebeb
+window.active.button.pressed.bg: flat solid
+window.active.button.pressed.bg.color: #ececec
+window.active.button.toggled.bg: flat solid
+window.active.button.toggled.bg.color: #ececec
+
+*.label.text.font:shadow=y:shadowtint=0:shadowoffset=10
+menu.items.font:shadow=y:shadowtint=0:shadowoffset=15
+menu.title.text.font: shadow=y:shadowtint=00:shadowoffset=6
