@@ -16,7 +16,10 @@ window.active.button.pressed.bg: flat solid
 window.active.button.pressed.bg.color: #434343
 window.active.button.toggled.bg: flat solid
 window.active.button.toggled.bg.color: #434343
+*.button.disabled.bg: parentrelative
+*.disabled.image.color: #aaaaaa
+*.disabled.text.color: #aaaaaa
 
-*.label.text.font:shadow=y:shadowtint=0:shadowoffset=10
-menu.items.font:shadow=y:shadowtint=0:shadowoffset=15
+*.label.text.font:shadow=y:shadowtint=0:shadowoffset=9
+menu.items.font:shadow=y:shadowtint=0:shadowoffset=12
 menu.title.text.font: shadow=y:shadowtint=00:shadowoffset=6
