@@ -14,12 +14,6 @@ The purpose of these themes is to *copy* as best we can - the goal is consistenc
 If you want out of the box consistency you will need to remove the maximise and minimise buttons in rc.xml
 
     <titleLayout>menu:close</titleLayout>
-  
-
-![dark](dark.png)
-
-![light](light.png)
-
 
 ./elements
 
