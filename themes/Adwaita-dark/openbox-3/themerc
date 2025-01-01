@@ -8,8 +8,8 @@ menu.border.width: 1
 #$popover_radius: $menu_radius + 6;
 
 # general
-window.titlebar.padding.width: 6
-window.titlebar.padding.height: 5
+window.titlebar.padding.width: 5
+window.titlebar.padding.height: 4
 window.label.text.justify: center
 
 # buttons
