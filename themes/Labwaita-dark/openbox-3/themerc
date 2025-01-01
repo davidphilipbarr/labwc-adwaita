@@ -8,8 +8,8 @@ menu.border.width: 1
 #$popover_radius: $menu_radius + 6;
 
 # general
-window.titlebar.padding.width: 6
-window.titlebar.padding.height: 5
+window.titlebar.padding.width: 5
+window.titlebar.padding.height: 4
 window.label.text.justify: center
 
 # buttons
@@ -106,3 +106,28 @@ menu.items.active.text.color: #f2f2f2
 osd.bg.color: #303030
 osd.border.color: #353535
 osd.label.text.color: #f2f2f2
+#for no reason make it backwards compatible with openbox, mostly.
+
+*title.bg: solid flat
+*.label.bg: Parentrelative
+menu.*.bg: solid flat
+padding.width: 6
+padding.height: 3
+window.handle.width: 0
+window.client.padding.width: 0
+
+window.inactive.*.button.*.bg:parentrelative
+window.active.button.unpressed.bg: parentrelative
+window.active.button.hover.bg: Flat Solid
+window.active.button.hover.bg.color: #434343
+window.active.button.pressed.bg: flat solid
+window.active.button.pressed.bg.color: #434343
+window.active.button.toggled.bg: flat solid
+window.active.button.toggled.bg.color: #434343
+*.button.disabled.bg: parentrelative
+*.disabled.image.color: #aaaaaa
+*.disabled.text.color: #aaaaaa
+
+*.label.text.font:shadow=y:shadowtint=0:shadowoffset=9
+menu.items.font:shadow=y:shadowtint=0:shadowoffset=12
+menu.title.text.font: shadow=y:shadowtint=00:shadowoffset=6
