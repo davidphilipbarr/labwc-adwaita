@@ -11,12 +11,16 @@ Labwaita-dark - xbm buttons
 
 The purpose of these themes is to *copy* as best we can - the goal is consistency. 
 
-Gnome-shell menus differ slightly from libadwaita menus - they are more round, more padded and have a stonger active hilight - we use the libadwaita styles.  
-
 If you want out of the box consistency you will need to remove the maximise and minimise buttons in rc.xml
 
     <titleLayout>menu:close</titleLayout>
   
+
+![dark](dark.png)
+
+![light](light.png)
+
+
 ./elements
 
 In this directory is a rudimentary modular theme builder, spliting bits basically into light, dark and common as well as holding the image assets. 
