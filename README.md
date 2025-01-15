@@ -1,4 +1,4 @@
-So what's this all about?
+ # So what's this all about?
 
 Here we have a (lib)Adwaita theme for labwc. 
 Complete themes are in the /themes folder
@@ -9,13 +9,15 @@ Adwaita-dark - svg buttons
 Labwaita - xbm buttons
 Labwaita-dark - xbm buttons
 
-The purpose of these themes is to *copy* as best we can - the goal is consistency. 
+The themes with xbm buttons should also be backwards compatible with openbox. 
+
+The purpose of these themes is to *copy* as best we can - the goal is consistency not creativity, hopefully the theme will track libadwaita git stylesheets.
 
 If you want out of the box consistency you will need to remove the maximise and minimise buttons in rc.xml
 
     <titleLayout>menu:close</titleLayout>
 
-./elements
+# ./elements
 
 In this directory is a rudimentary modular theme builder, spliting bits basically into light, dark and common as well as holding the image assets. 
 
