@@ -13,9 +13,14 @@ The themes with xbm buttons should also be backwards compatible with openbox.
 
 The purpose of these themes is to *copy* as best we can - the goal is consistency not creativity, hopefully the theme will track libadwaita git stylesheets.
 
+All buttons, iconify, menu, max, close, shade and desk are supported including their toggled and hovered states.
+
 If you want out of the box consistency you will need to remove the maximise and minimise buttons in rc.xml
 
     <titleLayout>menu:close</titleLayout>
+
+![](dark.png)
+![](light.png)
 
 # ./elements
 
