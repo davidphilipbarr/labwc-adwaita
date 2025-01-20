@@ -6,7 +6,7 @@
 
 # general
 window.titlebar.padding.width: 6
-window.titlebar.padding.height: 6
+window.titlebar.padding.height: 5
 window.label.text.justify: center
 
 # buttons
