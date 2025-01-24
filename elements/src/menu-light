@@ -1,10 +1,10 @@
 # menu
 menu.items.bg.color: #ffffff
-menu.items.text.color: #222222
+menu.items.text.color: #333333
 menu.items.active.bg.color: #ebebeb
-menu.items.active.text.color: #222222
+menu.items.active.text.color: #333333
 
-menu.separator.color: #dddddd
+menu.separator.color: #e0e0e1
 
 menu.title.bg.color:#E6E6E6
 menu.title.text.color: #222222
@@ -12,4 +12,3 @@ menu.title.text.color: #222222
 menu.border.color: #dbdbdb
 menu.bg.color:#ffffff
 menu.items.bg.color: #ffffff
-menu.items.text.color: #222222
