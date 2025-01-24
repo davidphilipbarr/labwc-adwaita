@@ -1,12 +1,14 @@
+##  Headers
+
 # Active Windows
-window.active.title.bg.color: #303030
-window.active.border.color: #3e3e3e
-window.active.label.text.color: #F2F2F2
+window.active.title.bg.color: #2e2e32
+window.active.border.color: #3d3d40
+window.active.label.text.color: #ffffff
 window.active.indicator.toggled-keybind.color: #ff0000
 window.active.button.unpressed.image.color: #f2f2f2
 
 # Inactive Windows
-window.inactive.title.bg.color: #242424
-window.inactive.border.color: #333333
-window.inactive.label.text.color: #919191
-window.inactive.button.unpressed.image.color: #919191
+window.inactive.title.bg.color: #222226
+window.inactive.border.color: #313135
+window.inactive.label.text.color: #909092
+window.inactive.button.unpressed.image.color: #909092
