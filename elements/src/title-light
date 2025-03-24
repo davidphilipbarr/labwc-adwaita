@@ -1,12 +1,12 @@
 # Active Windows
-window.active.title.bg.color: #FAFAFB
-window.active.border.color: #FAFAFB
+window.active.title.bg.color: #FAFAFA
+window.active.border.color: #FAFAFA
 window.active.label.text.color: #222222
 window.active.indicator.toggled-keybind.color: #ff0000
 window.active.button.unpressed.image.color: #333333
 
 # Inactive Windows
-window.inactive.title.bg.color: #fafafa
-window.inactive.border.color: #fafafa
+window.inactive.title.bg.color: #fafafb
+window.inactive.border.color: #fafafb
 window.inactive.label.text.color:  #969699
 window.inactive.button.unpressed.image.color: #969699
