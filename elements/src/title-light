@@ -1,6 +1,6 @@
 # Active Windows
-window.active.title.bg.color: #FAFAFA
-window.active.border.color: #FAFAFA
+window.active.title.bg.color: #FAFAFB
+window.active.border.color: #FAFAFB
 window.active.label.text.color: #222222
 window.active.indicator.toggled-keybind.color: #ff0000
 window.active.button.unpressed.image.color: #333333

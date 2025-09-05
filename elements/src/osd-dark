@@ -2,3 +2,13 @@
 osd.bg.color: #303030
 osd.border.color: #353535
 osd.label.text.color: #f2f2f2
+
+osd.window-switcher.style-thumbnail.width.max: 80%
+osd.window-switcher.style-thumbnail.padding: 15
+osd.window-switcher.style-thumbnail.item.width: 300
+osd.window-switcher.style-thumbnail.item.height: 250
+osd.window-switcher.style-thumbnail.item.padding: 15
+osd.window-switcher.style-thumbnail.item.active.border.width: 0
+osd.window-switcher.style-thumbnail.item.active.border.color: #589bda
+osd.window-switcher.style-thumbnail.item.active.bg.color: #4a4a4e
+osd.window-switcher.style-thumbnail.item.icon.size: 60
