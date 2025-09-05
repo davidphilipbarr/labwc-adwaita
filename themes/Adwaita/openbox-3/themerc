@@ -8,8 +8,8 @@ menu.border.width: 1
 #$popover_radius: $menu_radius + 6;
 
 # general
-window.titlebar.padding.width: 5
-window.titlebar.padding.height: 4
+window.titlebar.padding.width: 6
+window.titlebar.padding.height: 5
 window.label.text.justify: center
 
 # buttons
@@ -75,32 +75,31 @@ window.inactive.shadow.size: 40
 window.active.shadow.color: #00000033
 window.inactive.shadow.color: #00000023
 # Active Windows
-window.active.title.bg.color: #ffffff
-window.active.border.color: #ffffff
+window.active.title.bg.color: #FAFAFB
+window.active.border.color: #FAFAFB
 window.active.label.text.color: #222222
 window.active.indicator.toggled-keybind.color: #ff0000
 window.active.button.unpressed.image.color: #333333
 
 # Inactive Windows
-window.inactive.title.bg.color: #ffffff
-window.inactive.border.color: #ffffff
-window.inactive.label.text.color: #a7a7a7
-window.inactive.button.unpressed.image.color: #a7a7a7
+window.inactive.title.bg.color: #fafafb
+window.inactive.border.color: #fafafb
+window.inactive.label.text.color:  #969699
+window.inactive.button.unpressed.image.color: #969699
 # menu
 menu.items.bg.color: #ffffff
 menu.items.text.color: #222222
 menu.items.active.bg.color: #ebebeb
-menu.items.active.text.color: #222222
+menu.items.active.text.color: #333333
 
-menu.separator.color: #dddddd
+menu.separator.color: #e0e0e1
 
-menu.title.bg.color:#E6E6E6
+menu.title.bg.color:#ffffff
 menu.title.text.color: #222222
 
 menu.border.color: #dbdbdb
 menu.bg.color:#ffffff
 menu.items.bg.color: #ffffff
-menu.items.text.color: #222222
 # on screen display (window-cycle dialog)
 osd.bg.color: #ffffff
 osd.border.color: #efefef
