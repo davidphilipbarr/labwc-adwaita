@@ -8,8 +8,8 @@ menu.border.width: 1
 #$popover_radius: $menu_radius + 6;
 
 # general
-window.titlebar.padding.width: 5
-window.titlebar.padding.height: 4
+window.titlebar.padding.width: 6
+window.titlebar.padding.height: 5
 window.label.text.justify: center
 
 # buttons
@@ -74,38 +74,51 @@ window.active.shadow.size: 60
 window.inactive.shadow.size: 40
 window.active.shadow.color: #00000033
 window.inactive.shadow.color: #00000023
+##  Headers
+
 # Active Windows
-window.active.title.bg.color: #303030
-window.active.border.color: #3e3e3e
-window.active.label.text.color: #F2F2F2
+window.active.title.bg.color: #2e2e32
+window.active.border.color: #3d3d40
+window.active.label.text.color: #ffffff
 window.active.indicator.toggled-keybind.color: #ff0000
 window.active.button.unpressed.image.color: #f2f2f2
 
 # Inactive Windows
-window.inactive.title.bg.color: #242424
-window.inactive.border.color: #333333
-window.inactive.label.text.color: #919191
-window.inactive.button.unpressed.image.color: #919191
-# menu
-menu.separator.color: #4d4d4d
+window.inactive.title.bg.color: #222226
+window.inactive.border.color: #313135
+window.inactive.label.text.color: #909092
+window.inactive.button.unpressed.image.color: #909092
+## Menu
 
-menu.title.bg.color:#3A3A3A
+menu.separator.color: #545458
+
+menu.title.bg.color: #36363a
 menu.title.text.color: #F2F2F2
 
-menu.border.color: #424242
+menu.border.color: #434348
+menu.bg.color:#36363a
+
+menu.items.bg.color: #36363a
+menu.items.text.color: #f2f2f2
 menu.items.border.color: #434343
 
-menu.bg.color: #303030 
 menu.items.active.border.color: #303030 
-
-menu.items.bg.color: #303030 
-menu.items.text.color: #f2f2f2
-menu.items.active.bg.color: #434343
 menu.items.active.text.color: #f2f2f2
+menu.items.active.bg.color: #4a4a4e
 # on screen display (window-cycle dialog)
 osd.bg.color: #303030
 osd.border.color: #353535
 osd.label.text.color: #f2f2f2
+
+osd.window-switcher.style-thumbnail.width.max: 80%
+osd.window-switcher.style-thumbnail.padding: 15
+osd.window-switcher.style-thumbnail.item.width: 300
+osd.window-switcher.style-thumbnail.item.height: 250
+osd.window-switcher.style-thumbnail.item.padding: 15
+osd.window-switcher.style-thumbnail.item.active.border.width: 0
+osd.window-switcher.style-thumbnail.item.active.border.color: #589bda
+osd.window-switcher.style-thumbnail.item.active.bg.color: #4a4a4e
+osd.window-switcher.style-thumbnail.item.icon.size: 60
 #for no reason make it backwards compatible with openbox, mostly.
 
 *title.bg: solid flat
